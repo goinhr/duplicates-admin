@@ -1,0 +1,8 @@
+--no-cache
+--timeout 60000
+
+--full-trace
+*.test.js
+
+
+--exit
