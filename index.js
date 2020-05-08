@@ -30,7 +30,7 @@ data.forEach(d => {
         failureData.push(duplicated);
       }
       else {
-        const offset = 3600 + Math.round(Math.random()) * 3600 * 12;
+        const offset = 3600 + Math.round(Math.random() * 3600 * 12);
         const seemsDuplicatedButNot = {
           ...d,
           _id: uuid.v4(),
